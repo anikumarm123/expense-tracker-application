@@ -1,0 +1,55 @@
+body {
+  overflow: hidden;
+}
+.view-detail {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+table,tr,th,td {
+  border: 3px solid rgb(112 111 111);
+}
+table {
+  border-collapse: collapse;
+  font-family: "Jost", sans-serif;
+}
+tr,td,th {
+  height: 38px;
+  width: 200px;
+}
+td {
+  text-align: center;
+}
+.edit_delete_buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+}
+td button {
+  width: 80px;
+  height: 30px;
+  border: 1px solid #6412f7;
+  background-color: #6412f7;
+  color: #fff;
+  border-radius: 4px;
+  font-family: "Jost", sans-serif;
+}
+td i {
+  font-size: 12px;
+  letter-spacing: 8px;
+}
+th {
+  background-color: #e7e7e7;
+  font-size: 20px;
+  color: #222020;
+}
+td input {
+  outline: none;
+  border: 1px solid gray;
+  height: 23px;
+  width: 170px;
+  font-family: "Jost", sans-serif;
+  text-align: center;
+  font-size:16px;
+}
